@@ -1,5 +1,11 @@
 # @computesdk/modal
 
+## 1.9.29
+
+### Patch Changes
+
+- 0b28544: Share the Modal client, app lookup, and image preparation across provider instances with matching connection settings. Concurrent sandbox creation reuses in-flight initialization while preserving distinct sandbox options. Bound cache retention and retry failed lookups.
+
 ## 1.9.28
 
 ### Patch Changes
